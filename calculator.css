@@ -10,6 +10,7 @@ body{
     flex-wrap:wrap;
     color: white;
     background-color:black;
+    font-size:3rem;
 }
 .allCont{
     height: 100svh;
@@ -84,7 +85,7 @@ body{
    
 }
 .options div{
-    height: 3rem;
+    height: 5em;
     width: 300px;
     display: flex;
     align-items: center;
@@ -92,7 +93,7 @@ body{
     border-bottom: 2px solid gray;
 }
 .cancelBox{
-    height: 3rem;
+    height: 5em;
     width: 100%;
     display: flex;
     align-items: center;
@@ -100,11 +101,11 @@ body{
     
 }
 .cancelOptBox{
-    height: 3rem;
+    height: 5em;
     width: 100%;
 }
 .cancelBgOptBox{
-    height: 3rem;
+    height: 5em;
     width: 100%;
 }
 .cancelOptBtn{
