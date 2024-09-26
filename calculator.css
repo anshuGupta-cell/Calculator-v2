@@ -201,6 +201,9 @@ body{
     .options{
         width: 100vw;
     }
+    .themeOpt{
+        width: 100vw;
+    }
     .themeOpt div p{
         width: 100vw;
     }
