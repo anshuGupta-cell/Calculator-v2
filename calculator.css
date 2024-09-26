@@ -2,6 +2,7 @@
     margin:0px;
     padding :0px;
     color:white;
+    font-size:2rem;
 }
 body{
     display:flex;
@@ -10,7 +11,7 @@ body{
     flex-wrap:wrap;
     color: white;
     background-color:black;
-    font-size:3rem;
+    
 }
 .allCont{
     height: 100svh;
@@ -82,7 +83,7 @@ body{
     height: 100svh;
     width: 350px ;
     background-color: black;
-   
+    padding:0 2rem;
 }
 .options div{
     height: 5em;
@@ -90,7 +91,7 @@ body{
     display: flex;
     align-items: center;
     padding: 0 1rem;
-    border-bottom: 2px solid gray;
+    border-bottom: 1px solid gray;
 }
 .cancelBox{
     height: 5em;
@@ -103,15 +104,19 @@ body{
 .cancelOptBox{
     height: 5em;
     width: 100%;
+    border-bottom:1px solid grey;
 }
 .cancelBgOptBox{
     height: 5em;
     width: 100%;
+    border-bottom:1px solid grey;
 }
 .cancelOptBtn{
     filter: invert(1);
     position: absolute;
     right: 2rem;
+    display: flex;
+    align-items: center;
 }
 .cancelBgOptBtn{
     filter: invert(1);
@@ -133,7 +138,11 @@ body{
     display: flex;
     flex-wrap: wrap;
     background-color:black;
-    
+    padding:2rem;
+}
+.themeOpt div div{
+  display: flex;
+  align-items: center;
 }
 .bgOpt{
     height: 100svh;
@@ -143,17 +152,25 @@ body{
     display: flex;
     flex-wrap: wrap;
     background:black;
-    
+    padding:2rem;
+}
+.bgOpt div div{
+  display: flex;
+  align-items: center;
 }
 .themeOpt div p{
+    display: flex;
+    align-items: center;
     padding:10px 10px;
-    height: 2rem;
+    height: 5em;
     width: 300px;
     border-bottom:1px solid grey;
 }
 .bgOpt div p{
+    display: flex;
+    align-items: center;
     padding:10px 10px;
-    height: 2rem;
+    height: 5em;
     width: 300px;
     border-bottom:1px solid grey;
 }
@@ -173,7 +190,6 @@ body{
     .container{
         width:100svw;
         gap:2rem;
-        background: ;
     }
     .button{
         height:20vw;
