@@ -98,17 +98,17 @@ galaxy1.addEventListener("click",()=>{
     
     superCo.style.backgroundImage = "url(img/1.jpg)";
     bgOpt.style.left = "-800vw";
-    options.style.left = "0vw";
+    options.style.left = "-800vw";
 })
 galaxy2.addEventListener("click",()=>{
     superCo.style.backgroundImage = "url(img/2.jpg)";
     bgOpt.style.left = "-800vw";
-    options.style.left = "0vw";
+    options.style.left = "-800vw";
 })
 none.addEventListener("click",()=>{
     superCo.style.backgroundImage = "";
     bgOpt.style.left = "-800vw";
-    options.style.left = "0vw";
+    options.style.left = "-800vw";
 })
 cancelBgOptBtn.addEventListener("click",()=>{
     console.log("hello");
