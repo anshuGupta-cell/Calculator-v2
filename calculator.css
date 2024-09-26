@@ -1,0 +1,212 @@
+*{
+    margin:0px;
+    padding :0px;
+    color:white;
+}
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    color: white;
+    background-color:black;
+}
+.allCont{
+    height: 100svh;
+}
+.space{
+    display:flex;
+    justify-content:center;
+    height:200px;
+    
+}
+.input{
+    padding :140px 0 10px 0;
+    font-size:24px;
+    color: white;
+    border: none;
+    background:none;
+}
+.input:focus{
+    outline:none;
+}
+
+.button{
+    height :75px;
+    width:75px;
+    border-radius:1rem;
+    border: none;
+    background-color:#262626a4;
+    font-size:1.7rem;
+    font-weight:300;
+}
+.container{
+    width:350px;
+    display:flex;
+    justify-content:center;
+    gap:0.5rem;
+    flex-wrap:wrap;
+    align-items:center;
+}
+
+.container div{
+    width: 100%;
+    display:flex;
+    justify-content:space-evenly;
+    position: relative;
+}
+.superCo{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    position: relative;
+    background-image: none;
+    border-radius: 1rem;
+    object-fit: cover;
+}
+
+/* optons */
+.optBtn img{
+    filter: invert(1);
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+}
+.optBtnst{
+    filter: invert(0);
+}
+.options{
+    position: absolute;
+    left: -800vw;
+    height: 100svh;
+    width: 350px ;
+    background-color: black;
+   
+}
+.options div{
+    height: 3rem;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    border-bottom: 2px solid gray;
+}
+.cancelBox{
+    height: 3rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.cancelOptBox{
+    height: 3rem;
+    width: 100%;
+}
+.cancelBgOptBox{
+    height: 3rem;
+    width: 100%;
+}
+.cancelOptBtn{
+    filter: invert(1);
+    position: absolute;
+    right: 2rem;
+}
+.cancelBgOptBtn{
+    filter: invert(1);
+    position: absolute;
+    right: 2rem;
+}
+.cancelBtn{
+    filter: invert(1);
+    position: absolute;
+    right: 2rem;
+}
+
+/* theme options */
+.themeOpt{
+    height: 100svh;
+    width: 350px;
+    position: absolute;
+    left: -800vw;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:black;
+    
+}
+.bgOpt{
+    height: 100svh;
+    width: 350px;
+    position: absolute;
+    left: -800vw;
+    display: flex;
+    flex-wrap: wrap;
+    background:black;
+    
+}
+.themeOpt div p{
+    padding:10px 10px;
+    height: 2rem;
+    width: 300px;
+    border-bottom:1px solid grey;
+}
+.bgOpt div p{
+    padding:10px 10px;
+    height: 2rem;
+    width: 300px;
+    border-bottom:1px solid grey;
+}
+
+/* resopnsiveness*/
+
+@media (max-width: 1100px) {
+    body{
+        font-size: 2rem;
+    }
+    .allCont{
+        height: 100svh;
+    }
+    .superCo{
+        width:100svw;
+    }
+    .container{
+        width:100svw;
+        gap:2rem;
+        background: ;
+    }
+    .button{
+        height:20vw;
+        width:20vw;
+    }
+    .input{
+        width:80svw;
+    }
+
+    .themeOpt div p{
+        width: 100vw;
+    }
+    .bgOpt{
+        width: 100vw;
+    }
+    .bgOpt div{
+        width: 100vw;
+    }
+    .bgOpt div p{
+        width: 100vw;
+    }
+    .options div{
+        width: 100vw;
+    }
+    .options{
+        width: 100vw;
+    }
+    .themeOpt div p{
+        width: 100vw;
+    }
+    .superCo{
+        object-fit: contain;
+        mask-repeat: no-repeat;
+    }
+   
+  }
+  
