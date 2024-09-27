@@ -4,7 +4,7 @@
     margin:0px;
     padding :0px;
     color:white;
-    font-size:2rem;
+    font-size:1rem;
 }
 body{
     display:flex;
@@ -91,7 +91,7 @@ body{
     padding:0 2rem;
 }
 .options div{
-    height: 5em;
+    height: 3em;
     width: 300px;
     display: flex;
     align-items: center;
@@ -99,7 +99,7 @@ body{
     border-bottom: 1px solid gray;
 }
 .cancelBox{
-    height: 5em;
+    height: 3em;
     width: 100%;
     display: flex;
     align-items: center;
@@ -107,12 +107,12 @@ body{
     
 }
 .cancelOptBox{
-    height: 5em;
+    height: 3em;
     width: 100%;
     border-bottom:1px solid grey;
 }
 .cancelBgOptBox{
-    height: 5em;
+    height: 3em;
     width: 100%;
     border-bottom:1px solid grey;
 }
@@ -167,7 +167,7 @@ body{
     display: flex;
     align-items: center;
     padding:10px 10px;
-    height: 5em;
+    height: 3em;
     width: 300px;
     border-bottom:1px solid grey;
 }
@@ -175,7 +175,7 @@ body{
     display: flex;
     align-items: center;
     padding:10px 10px;
-    height: 5em;
+    height: 3em;
     width: 300px;
     border-bottom:1px solid grey;
 }
@@ -183,6 +183,9 @@ body{
 /* resopnsiveness*/
 
 @media (max-width: 1100px) {
+    *{
+         font-size:2rem;
+    }
     body{
         font-size: 2rem;
     }
@@ -206,6 +209,7 @@ body{
 
     .themeOpt div p{
         width: 100vw;
+        height: 5em;
     }
     .bgOpt{
         width: 100vw;
@@ -215,9 +219,11 @@ body{
     }
     .bgOpt div p{
         width: 100vw;
+        height: 5em;
     }
     .options div{
         width: 100vw;
+        height: 5em;
     }
     .options{
         width: 100vw;
@@ -232,6 +238,16 @@ body{
         object-fit: contain;
         mask-repeat: no-repeat;
     }
+    .cancelBgOptBox{
+        height: 5em;
+    }
+    .cancelOptBox{
+        height: 5em;
+    }
+    .cancelBox{
+        height: 5em;
+    }
+    
    
   }
   
