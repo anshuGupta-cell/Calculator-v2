@@ -19,6 +19,8 @@ let galaxy2 = document.querySelector(".galaxy2");
 let none = document.querySelector(".none");
 let superCo = document.querySelector(".superCo");
 let cancelBgOptBtn = document.querySelector(".cancelBgOptBtn");
+let del = document.querySelector(".delete")
+
 
 // main 
 Array.from(buttons).forEach((button) => {
@@ -29,15 +31,17 @@ Array.from(buttons).forEach((button) => {
         }else if (e.target.innerHTML =="AC"){
             string ="";
             document.querySelector(".input").value=string;
-        } else if (e.target.innerHTML =="C"){
-            string = string.slice(0,-1);
-            document.querySelector(".input").value=string;
-        }   else{
+        }else{
             string=string + e.target.innerHTML;
         document.querySelector(".input").value=string;
         }        
     })
 })
+del.addEventListener("click",()=>{
+    string = string.slice(0,-1);
+            document.querySelector(".input").value=string;
+})
+
 
 
 // to display options 
@@ -115,6 +119,3 @@ cancelBgOptBtn.addEventListener("click",()=>{
     bgOpt.style.left = "-800vw"
     
 })
-
-
-
