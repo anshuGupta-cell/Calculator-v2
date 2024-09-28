@@ -218,6 +218,13 @@ body{
         height:20vw;
         width:20vw;
     }
+    .butto{
+        height:20vw;
+        width:20vw;
+    }
+    .butto img{
+        width: 2rem;
+    }
     .input{
         width:80svw;
     }
